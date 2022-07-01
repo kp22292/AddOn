@@ -1,0 +1,20 @@
+{
+  "oauthScopes": ["https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/userinfo.profile"],
+  "addOns": {
+    "common": {
+      "name": "OXOS",
+      "logoUrl": "https://oxos.com/wp-content/uploads/2021/10/cropped-mark-192x192.png",
+      "homepageTrigger": {
+        "runFunction": "https://3892-38-101-235-211.ngrok.io/landing"
+      }
+    },
+    "gmail": {},
+    "drive": {},
+    "calendar": {},
+    "docs": {},
+    "sheets": {},
+    "slides": {}
+  }
+}
